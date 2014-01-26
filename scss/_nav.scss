@@ -1,0 +1,115 @@
+/******************************************** BEGIN NAVBAR *************************************/
+.navbar-brand {
+	padding:.3em;
+	margin:0em;
+	font-size:2em;
+}
+#logo{
+	background:url("../img/turnbuckle-another-extra-small.png") no-repeat top left;
+	width:150px;
+	height:32px;
+	text-indent:-9999px;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: $orange;
+    background-color: #E7E7E7;
+}
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-image: none;
+  border: 1px solid transparent;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  border:1px solid $orange;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+
+
+.navbar-nav > li > a:hover {
+    background:$orange ;   
+}
+.navbar-default .navbar-nav > li > a:hover{
+  color: #333333;
+  background:#ccc !important;
+}
+.navbar-default .nav-collapse {
+	background:$white;
+}
+.navbar-default {
+    background-color: $offWhite;
+    border-color: #E7E7E7;
+}	
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background:$orange;
+	border-color:$white;
+}
+.navbar-toggle a > .icon-bar,
+.navbar-toggle:focus > .icon-bar,
+.navbar-toggle:hover > .icon-bar {
+  border:1px solid $white;
+}
+@media (min-width: 768px) {
+	.navbar-default {
+	    background-color: $offWhite;
+	    border-color: $gray;
+	}	
+	.navbar {
+	  min-height: 100px;
+	  height:100px;
+	  margin-bottom: 20px;
+	  border: 1px solid transparent;
+	}
+	.navbar-nav > li > a {
+	  padding-top: 50px;
+	  padding-bottom: 29px;
+	  padding-right:30px;
+	  width:150px;
+	  line-height: 20px;
+	  text-align:center;
+	  margin-top:-1px;
+	}
+	.navbar-nav > li > a:hover,
+	.navbar-nav .active > li > a:hover {
+		border-bottom:5px solid $orange;
+	}
+	
+	.navbar-default .navbar-nav > .active > a, 
+	.navbar-default .navbar-nav > .active > a:hover, 
+	.navbar-default .navbar-nav > .active > a:focus {
+	    color: #555;
+	    background-color: $gray;
+		border-bottom:5px solid $orange;
+	}	
+	.navbar-brand {
+		font-size:3em;
+	  float: left;
+	  padding-top: 20px;
+	  line-height: 20px;
+	}
+	#logo{
+		background:url("../img/turnbuckle-another-small.png") no-repeat top left;
+		width:250px;
+		height:53px;
+		text-indent:-9999px;
+	}
+}
+/***************************************** END NAVBAR **********************************/

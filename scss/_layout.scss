@@ -1,0 +1,63 @@
+html, body{
+ 	background: url(../img/background.jpg) no-repeat 0 0 fixed;  
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} 
+a, a:hover {
+    text-decoration:none;
+	color:#F8F8F8;
+}
+p {
+    margin:auto;
+    text-indent:1.5em;
+}
+#wrap {
+	margin-top:50%;
+	min-height:100%;
+}
+.footer {
+    background-color:$orange;
+}
+.white {
+    background:#fff;        
+}
+.orange {
+    background:$orange;        
+}
+.arrow {
+    color:#e28228; 
+	font-size:5em;    
+	margin-bottom:-55px;
+	z-index:-1;
+}
+.arrow a{
+    color:$orange; 
+}
+.arrow a:hover{
+    color:$burntOrange; 
+}
+.oxygen {
+}
+.comfortaa {
+    margin:0;
+    padding:0;
+}
+
+.row {
+    padding:5em 0;
+}
+.content {
+	background:$white;
+	padding-top:20%;
+}
+.icon span {
+	opacity:0;
+}
+.icon:hover span {
+	opacity:1;
+}
