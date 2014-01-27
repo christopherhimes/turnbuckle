@@ -3,10 +3,11 @@ html, body{
     height: 100%;
     margin: 0px;
     padding: 0px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+		@include background-size(cover);
+//    -webkit-background-size: cover;
+//    -moz-background-size: cover;
+//    -o-background-size: cover;
+//    background-size: cover;
 } 
 a, a:hover {
     text-decoration:none;
